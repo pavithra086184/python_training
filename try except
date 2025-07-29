@@ -1,0 +1,10 @@
+try:
+    num = int(input("Enter a number"))
+
+    if num > 100:
+        raise ("Number greater than 100")
+    else:
+    print("ok")
+
+except Excepation as e:
+    print(e)
